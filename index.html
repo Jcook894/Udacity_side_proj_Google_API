@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyBsjGimn5mrdv4SaHko6T4Ge8hChEHQQFc&callback=initMap"
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsjGimn5mrdv4SaHko6T4Ge8hChEHQQFc&libraries=drawing,geometry&v=3&callback=initMap"
   type="text/javascript"></script>
   <script type="text/javascript" src="app.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css" />
@@ -12,8 +12,9 @@
       <h1>Real Estate App</h1>
       <input id="showListings" type="button" value="Show Listings" />
       <input id="hideListings" type="button" value="Hide Listings" />
-
     </div>
+    <span class="text"> Draw a shape to search the homes within!</span>
+    <input id="toggleDrawing" type="button" value="Home Drawer" />
 
 
   </body>

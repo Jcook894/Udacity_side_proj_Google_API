@@ -11,5 +11,16 @@ html,body{
 
 
 #nav-box{
-  height: 50%;
+  height: 15%;
+}
+
+#pano {
+        width: 200px;
+        height: 200px;
+      }
+
+#toggle-drawing{
+  width: 27%;
+  position: relative;
+  margin-top: auto;
 }
